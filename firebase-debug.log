@@ -1,0 +1,52 @@
+[debug] [2019-06-06T19:39:57.846Z] ----------------------------------------------------------------------
+[debug] [2019-06-06T19:39:57.849Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-06-06T19:39:57.849Z] CLI Version:   6.7.2
+[debug] [2019-06-06T19:39:57.850Z] Platform:      darwin
+[debug] [2019-06-06T19:39:57.850Z] Node Version:  v10.15.3
+[debug] [2019-06-06T19:39:57.851Z] Time:          Thu Jun 06 2019 13:39:57 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-06-06T19:39:57.851Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-06T19:39:57.867Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-06T19:39:57.868Z] > authorizing via signed-in user
+[debug] [2019-06-06T19:39:57.868Z] [iam] checking project cs260projects-larsen for permissions ["firebase.projects.get"]
+[debug] [2019-06-06T19:39:57.870Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cs260projects-larsen:testIamPermissions  
+
+[debug] [2019-06-06T19:39:58.259Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-06T19:39:58.262Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cs260projects-larsen  
+ 
+[debug] [2019-06-06T19:39:58.638Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/kamrilarsen/Kamri Larsen/Classes/Spring 2019/CS 260/Lab4'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-06-06T19:39:59.716Z] Fetching environment
+[debug] [2019-06-06T19:39:59.719Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/235362122293:getServerAppConfig  
+ 
+[debug] [2019-06-06T19:39:59.720Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/235362122293/clients/_:getWebAppConfig  
+ 
+[debug] [2019-06-06T19:40:00.276Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-06T19:40:00.277Z] Starting @google-cloud/functions-emulator
+[debug] [2019-06-06T19:40:00.295Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-06-06T19:40:01.855Z] Parsing function triggers
+[info] ✔  functions: app: http://localhost:5001/cs260projects-larsen/us-central1/app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /favicon.ico to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items/2 to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items/2 to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
+[info] [hosting] Rewriting /api/items/3 to http://localhost:5001/cs260projects-larsen/us-central1/app for local Function app
