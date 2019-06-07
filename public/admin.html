@@ -16,7 +16,8 @@
     </div>
     <div class="add">
       <div class="form">
-        <input v-model="title" placeholder="Title">
+        <div><input v-model="title" placeholder="Title"></div>
+        <div><textarea v-model="description" placeholder="Description of Item"></textarea></div>
         <p></p>
         <select v-model="selected">
           <option disabled value="">Please select one to add</option>
@@ -26,6 +27,7 @@
       </div>
       <div class="upload" v-if="addItem">
         <h2>{{addItem.title}}</h2>
+        <p>{{addItem.description}}</p>
         <img :src="addItem.path" />
       </div>
     </div>
@@ -42,6 +44,7 @@
       </div>
       <div class="upload" v-if="findItem">
         <input v-model="findItem.title">
+        <textarea v-model="findItem.description"></textarea>
         <p></p>
         <img :src="findItem.path" />
       </div>

@@ -18,7 +18,8 @@ app.post('/api/items', async (req, res) => {
     let item = {
       id: numRecords + 1,
       title: req.body.title,
-      path: req.body.path
+      path: req.body.path,
+      description: req.body.description,
     };
     itemsRef.doc(item.id.toString()).set(item);
     res.send(item);
@@ -68,6 +69,7 @@ app.put('/api/items/:id', async (req, res) => {
     let item = {
       id: picToEdit.id,
       title: req.body.title,
+      description: req.body.description,
       path: req.body.path,
     };
     if (!pic.exists) {
